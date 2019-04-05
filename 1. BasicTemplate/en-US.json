@@ -1,0 +1,36 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "marvel guide",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MovieReleaseIntent",
+                    "slots": [],
+                    "samples": [
+                        "when is endgame coming",
+                        "next release",
+                        "when is the release date",
+                        "When is the next movie releasing"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

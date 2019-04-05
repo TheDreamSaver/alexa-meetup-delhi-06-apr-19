@@ -1,0 +1,16 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "description": "Basic API Call Alexa Skill Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Jha",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-model": "^1.11.1",
+    "axios": "^0.18.0"
+  }
+}

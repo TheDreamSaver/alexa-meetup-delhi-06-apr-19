@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "marvel guide",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CharacterIntent",
+                    "slots": [
+                        {
+                            "name": "character",
+                            "type": "AMAZON.FictionalCharacter"
+                        }
+                    ],
+                    "samples": [
+                        "{character} is played by",
+                        "tell me who plays {character}",
+                        "{character} is played by whom",
+                        "who plays {character}"
+                    ]
+                },
+                {
+                    "name": "MovieReleaseIntent",
+                    "slots": [],
+                    "samples": [
+                        "when is endgame coming",
+                        "next release",
+                        "when is the release date",
+                        "When is the next movie releasing"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
